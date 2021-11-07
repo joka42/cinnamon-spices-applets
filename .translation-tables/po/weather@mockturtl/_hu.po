@@ -1,0 +1,107 @@
+# Hungarian translations for Neroth-gnome-shell-extension-weather package.
+# Copyright (C) 2013 THE Neroth-gnome-shell-extension-weather'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neroth-gnome-shell-extension-weather package.
+# Bojtos PÃ©ter <ptr@ulx.hu>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: Neroth-gnome-shell-extension-weather 3696468\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-19 21:37+0100\n"
+"PO-Revision-Date: 2021-09-26 07:54+0200\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: 3.8/weather-applet.js:10653
+msgid "Dew Point"
+msgstr ""
+
+#: 3.8/weather-applet.js:11666
+msgid "This API has ceased to function, please use another one."
+msgstr ""
+
+#: 3.8/weather-applet.js:14189
+msgid "Dust Storm"
+msgstr ""
+
+#. 3.0->settings-schema.json->tempTextOverride->tooltip
+#. 3.8->settings-schema.json->tempTextOverride->tooltip
+msgid ""
+"Available values are: {c} is condition, {t} is temperature and {u} is unit.\n"
+"Can be used if label does not fit on vertical panel, among other smart "
+"things."
+msgstr ""
+
+#. 3.8->settings-schema.json->dataService->tooltip
+msgid ""
+"You can choose between several different weather forecast providers. Some "
+"providers require a API key to work, some have regional limits, differ in "
+"forecast length, and they all need a functional internet connection to work. "
+"The options are described in detail on the Cinnamon Spices Website which you "
+"can access with the button on the Help tab."
+msgstr ""
+
+#. 3.8->settings-schema.json->location->tooltip
+msgid ""
+"You can enter coordinates 'Latitude,Longitude' (e.g. 51.5085,-0.1257) or use "
+"'City,Country-code' (e.g. London,UK) or try to enter {House number} {Street} "
+"{City/Town} {Postcode} {Country}. The search algorithm is very flexible with "
+"the format. After 3 seconds without typing the address you entered is "
+"replaced automatically for validating your choice."
+msgstr ""
+
+#. 3.8->settings-schema.json->saveLocation->tooltip
+msgid ""
+"Saves location information to file so you can switch between them with "
+"buttons in the applet, which will appear if you have more than one."
+msgstr ""
+
+#. 3.8->settings-schema.json->refreshInterval->tooltip
+msgid ""
+"If you are using a provider with API keys set it to an interval you won't "
+"run out of your quota with."
+msgstr ""
+
+#. 3.8->settings-schema.json->forecastDays->tooltip
+msgid ""
+"Maximum number of days that can be displayed, maximum rows and columns "
+"setting in the Presentation tab will affect the final number."
+msgstr ""
+
+#. 3.8->settings-schema.json->immediatePrecip->tooltip
+msgid ""
+"If you'd like to use this make sure you use your exact coordinates/address "
+"as location to help its accuracy. Currently implemented with OpenWeatherMap "
+"only."
+msgstr ""
+
+#. 3.8->settings-schema.json->alwaysShowHourlyWeather->description
+msgid "Always show Hourly Weather"
+msgstr ""
+
+#. 3.8->settings-schema.json->alwaysShowHourlyWeather->tooltip
+msgid ""
+"Hide/Show button will be hidden and Hourly weather will be permanently "
+"visible."
+msgstr ""
+
+#. 3.8->settings-schema.json->locationList->tooltip
+msgid ""
+"You have to make sure the Search entry field is unique and your Timezone is "
+"in the IANA time zone format (e.g. 'Europe/London')"
+msgstr ""
+
+#. 3.8->settings-schema.json->loc-info->description
+msgid ""
+"Your location in most cases work automatically but you can enter it manually "
+"by coordinates 'Latitude,Longitude' (e.g. 51.5085,-0.1257) or use 'City,"
+"Country-code' (e.g. London,UK) or try to enter {House number} {Street} {City/"
+"Town} {Postcode} {Country}. The search algorithm is very flexible with the "
+"format. After 3 seconds without typing the address you entered is replaced "
+"automatically for validating your choice."
+msgstr ""
