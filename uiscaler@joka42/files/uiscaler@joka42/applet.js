@@ -41,20 +41,26 @@ MyApplet.prototype = {
         });
         //HiDPI 125% Scale
         this.menu.addAction("Scale 125%", function (event) {
-            this.set_applet_tooltip("Hello 1 ");
             Main.Util.spawnCommandLine(`${__meta.path}/uiscaler 125`);
-            // this.load_json();
         });
         //Reset 100% 
         this.menu.addAction("Reset 100%", function (event) {
             Main.Util.spawnCommandLine(`${__meta.path}/uiscaler 100`);
         });
+
+        this.load_json();
     },
 
     load_json: function () {
         this.set_applet_tooltip("Hello");
-        let jsonData = require("/home/jonas/.cinnamon/configs/menu@cinnamon.org/63.json");
-        this.set_applet_tooltip(jsonData);
+        // let jsonData = require("/home/jonas/.cinnamon/configs/menu@cinnamon.org/63.json");
+        //let jsonData = require(`${__meta.path}/metadata.json`);
+        // this.set_applet_tooltip(jsonData);
+        const path = `${__meta.path}/metadata.json`;
+        let data;
+        fs.readFile(require.resolve(path), (err, data))
+        data = JSON.parse(data)
+        this.set_applet_tooltip(data)
     },
 
     on_applet_clicked: function (event) {
